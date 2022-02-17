@@ -70,4 +70,8 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+  gem 'devise'
+  gem 'omniauth'
+  gem 'omniauth-google-oauth2'
+  gem 'dotenv-rails'
 end

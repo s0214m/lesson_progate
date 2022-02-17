@@ -8,5 +8,4 @@ class User < ApplicationRecord
     Post.where(user_id: self.id)
   end
 
-
 end
